@@ -38,9 +38,6 @@ dependencies {
 	implementation("com.auth0:java-jwt:4.5.0")
 
 	implementation("org.springframework.boot:spring-boot-starter-websocket")
-
-	implementation("org.springframework.boot:spring-boot-starter-mustache")
-	implementation("com.github.jknack:handlebars:4.4.0")
 }
 
 tasks.withType<Test> {
